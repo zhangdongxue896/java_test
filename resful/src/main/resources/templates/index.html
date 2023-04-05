@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎页</title>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+        function get(){
+            // var httpUrl = "http://localhost:8080"
+            console.log("get");
+            $.ajax({
+                url:"/Index/RESTful",
+                type:"get",
+                success:function(text){
+                    window.alert(text);
+                }
+            })
+        }
+
+        function post(){
+            $.ajax({
+                url:"/Index/RESTful",
+                type:"post",
+                success:function(text){
+                    window.alert(text);
+                }
+            })
+        }
+
+
+        function put(){
+            $.ajax({
+                url:"/Index/RESTful",
+                type:"put",
+                success:function(text){
+                    window.alert(text);
+                }
+            })
+        }
+
+        function delet(){
+            $.ajax({
+                url:"/Index/RESTful",
+                type:"delete",
+                success:function(text){
+                    window.alert(text);
+                }
+            })
+        }
+
+    </script>
+</head>
+<body>
+<h1>欢迎页</h1>
+<button id="get" onclick="get()">GET</button>
+<button id="delete" onclick="delet()">DELETE</button>
+<button id="put"  onclick="put()">PUT</button>
+<button id="post" onclick="post()">POST</button>
+</body>
+</html>

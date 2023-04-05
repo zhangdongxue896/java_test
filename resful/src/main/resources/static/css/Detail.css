@@ -1,0 +1,105 @@
+.layui-tree-entry{
+    white-space: normal;
+    height: auto;
+}
+.layui-tree-txt{
+    display: contents;
+}
+
+.explore-schedule{
+    background: white;
+    margin-top: 30px;
+    margin-left: 4%;
+    border-radius: 10px;
+    height: auto;
+}
+.explore-schedule-title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#explore-schedule-tree{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.explore-data{
+    background: white;
+    margin-top: 30px;
+    margin-left: 2%;
+    border-radius: 10px;
+    height: 700px;
+}
+.explore-data-title{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.explore-data-datatable{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.layui-table{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.layui-table tr{
+    text-align: center;
+}
+.layui-table th{
+    text-align: center;
+}
+.layui-table td{
+    text-align: center;
+}
+#box {
+    height: 550px;
+    overflow: hidden;
+}
+
+.explore-analyse{
+    background: white;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    height: auto;
+    min-height: 700px;
+}
+.explore-analyse-title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.explore-echart-first{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.sample-nums{
+    margin-bottom: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#container-line{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#pie_echarts1{
+    margin-right: 0%;
+    margin-left: 10%;
+}
+#pie_echarts2{
+    margin-right: 0%;
+    margin-left: 10%;
+}
+.pie_below{
+    margin-top: 15%;
+}

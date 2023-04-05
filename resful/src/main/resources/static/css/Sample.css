@@ -1,0 +1,25 @@
+.explore-sample{
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    background: white;
+    border-radius: 10px;
+    height: 700px;
+}
+.explore-sample-table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/*学长学姐写的css*/
+a:active {
+    color: orange;
+}
+body{
+    min-height: auto;
+}
+body,table,th,tr,td{padding: 0px; margin: 0px;}
+th{ width: 80px; height: 20px; border: 1px solid #e6e6e6; text-align: center;}
+td{ width: 80px; height: 20px; border: 1px solid #e6e6e6; text-align: center;}

@@ -1,0 +1,5 @@
+grant {
+permission java.net.SocketPermission "localhost:*","accept,listen,connect,resolve";//端口权限
+permission java.io.FilePermission "D:\\*", "read,write,delete";
+permission java.io.FilePermission "D:\\test\\*", "read,write,delete";//读写删权限
+};

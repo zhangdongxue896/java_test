@@ -1,0 +1,81 @@
+.text{
+	font-weight: 300;
+	font-size: 70px;
+	padding-bottom: 10px;
+	color: white;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+.layui-tab-card>.layui-tab-title .layui-tab-bar{
+	display: none;
+}
+
+.name{
+	color: #28a7e9;
+	font-size: 30px;
+}
+
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{
+	background-color: gray;
+}
+
+
+
+.index-background{
+	background: url("../images/Index-background.png");
+	height: 450px;
+	width: 100%;
+}
+.advertising{
+	float:left;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+.titleone{
+	text-color:white;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px gray;
+}
+.leftTitle{
+	margin-top: 5%;
+}
+.leftTitle>p{
+	margin-top: 3%;
+}
+
+.Index-data{
+	height: 400px;
+	width: auto;
+}
+
+.four-moudle{
+	margin-top: 3%;
+	text-align: center;
+}
+.four-moudle>h6{
+	font-size: 15px;
+	font-weight: bold;
+}
+.four-button{
+	margin-top: 32px;
+	border: solid 1px #35404d;
+	color: #35404d;
+	background-color: #ffffff;
+	border-radius: 20px;
+	font-size: 18px;
+	width: 240px;
+	height: 40px;
+	outline: none;
+}
+
+.footer{
+	margin-top: 3%;
+	background: #393D49;
+}
+.footer-text{
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}

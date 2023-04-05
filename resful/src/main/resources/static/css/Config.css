@@ -1,0 +1,55 @@
+.config-info{
+    background: white;
+    margin-top: 30px;
+    margin-left: 2%;
+    border-radius: 10px;
+    /* height: 700px; */
+    height: auto;
+}
+.config-info-title{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.config-info-form{
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.config-info-input{
+    margin-top: 5%;
+}
+.config-info-textarea{
+    margin-top: 10%;
+}
+.config-info-button{
+    margin-top: 8%;
+}
+
+.config-result{
+    background: white;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 2%;
+    border-radius: 10px;
+    /* height: 700px; */
+    height: auto;
+    min-height: 750px;
+}
+.config-result-title{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.config-result-datatable{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#detection-content>tr>td{
+    text-align: center;
+}
+

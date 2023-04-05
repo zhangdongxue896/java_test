@@ -1,0 +1,6 @@
+com\example\controller\ConsumerFeignController.class
+com\example\controller\ConsumerController.class
+com\example\feign\UserFeign.class
+com\example\feign\impl\UserFeignImpl.class
+com\example\ConsumerApplication.class
+com\example\pojo\User.class

@@ -1,0 +1,14 @@
+server:
+  port: 9999 # 服务端口配置
+spring:
+  application:
+    name: eureka-server # 服务名配置
+eureka:
+  server:
+    enable-self-preservation: false # 关闭自我保护机制（默认是true）
+    eviction-interval-timer-in-ms: 10000 # 1秒的扫描失效，默认是60秒
+  client:
+    service-url:
+      defaultZone: HTTP://127.0.0.1:9999/eureka # eureka服务地址
+    fetch-registry: false # 不拉取服务，默认是true，开启的,集群时开启
+    register-with-eureka: false # 不进行eureka注册,默认是true，开启的，集群时开启

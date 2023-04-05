@@ -1,0 +1,27 @@
+server:
+  port: 8888 # 自定义服务端口配置
+
+spring:
+  datasource: # 链接数据库的相关配置
+    driver-class-name: com.mysql.jdbc.Driver
+    # 记得将其中的springcloud改成自己的数据库名
+    url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    # 改成自己的用户名
+    username: root
+    # 改成自己的密码
+    password: 123456
+  application:
+    name: user-service  # 给服务起一个名称
+
+# Eureka注册中心配置
+eureka:
+  instance:
+    ip-address: 127.0.0.1 # ip地址
+    prefer-ip-address: true # 更倾向于IP地址，而不是host名
+    lease-expiration-duration-in-seconds: 5 # 5秒的服务失效时间，默认值:90
+    lease-renewal-interval-in-seconds: 5 # 5秒的心跳机制验证，默认值：30
+  client:
+    service-url:
+      defaultZone: HTTP://127.0.0.1:9999/eureka # eureka注册中心的服务地址
+
+

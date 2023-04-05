@@ -1,0 +1,27 @@
+.layui-form-radio>i:hover, .layui-form-radioed>i{
+    color: #1E9FFF;
+}
+
+.explore-source{
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    background: white;
+    border-radius: 10px;
+    min-height: 700px;
+    height: auto;
+}
+.explore-source-right{
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.explore-source-right-url{
+    margin-top: 100px;
+}
+.explore-source-right-button{
+    width: 150px;
+}
+.explore-source-right-ip{
+    margin-top: 20px;
+}
+

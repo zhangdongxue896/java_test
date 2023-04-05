@@ -1,0 +1,47 @@
+.layui-input-inline{
+    margin-top: 1%;
+}
+.layui-btn{
+    margin-top: 1%;
+}
+
+.explore-estimate{
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    background: white;
+    border-radius: 10px;
+    min-height: 700px;
+    height: auto;
+}
+.explore-form{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#container-line{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pie_below{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#pie_echarts1{
+    margin-left: 10%;
+}
+#pie_echarts2{
+    margin-left: 10%;
+}
+#pie_echarts3{
+    margin-left: 10%;
+}
+
+#test td{
+    text-align: center;
+}
+
+
+
+
+

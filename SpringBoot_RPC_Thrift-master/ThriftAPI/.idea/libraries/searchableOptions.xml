@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="searchableOptions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/searchableOptions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,38 @@
+server:
+  port: 8899
+
+spring:
+  application:
+    name: consumer-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9999/eureka
+    registry-fetch-interval-seconds: 10 #10秒向注册中心拉取数据，默认值:30
+user-service: # 服务提供者的服务名
+  ribbon:
+    ReadTimeout: 2000 #读取超时常
+    ConnectTimeout: 1000 #建立链接超时时长
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #更改負載均衡规则：从轮询更改为随机
+    MaxAutoRetries: 0 # 当前服务器的重试次数
+    MaxAutoRetriesNextServer: 0 # 重试多少次服务
+    OkToRetryOnAllOperations: false # 是否对所有的请求方式都重试
+#熔断机制的配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000 #默认值为1秒
+      circuitBreaker:
+        errorThresholdPercentage: 50 # 触发熔断错误比例阈值，默认值50%
+        sleepWindowInMilliseconds: 10000 # 熔断后休眠时长，默认值5秒
+        requestVolumeThreshold: 10 # 熔断触发最小请求次数，默认值是20
+#开启Feign的熔断功能
+feign:
+  hystrix:
+    enabled: true # 开启，默认是false关闭的
+
+
